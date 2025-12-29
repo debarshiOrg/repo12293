@@ -11,7 +11,7 @@ pool:
 
 steps:
 - script: echo Hello, world!
-  displayName: 'Run the pipeline for RepoMigrate1'
+  displayName: 'Run the pipeline RepoMigrate1_New'
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
