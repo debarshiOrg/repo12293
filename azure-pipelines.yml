@@ -4,14 +4,17 @@
 # https://aka.ms/yaml
 
 trigger:
+- none
+
+pr:
 - main
 
 pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run the pipeline RepoMigrate1_New'
+- script: echo Pipeline for Repo Migrate 1!
+  displayName: 'Run pipeline for PR check for migrate 1'
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
