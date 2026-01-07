@@ -1,1 +1,1 @@
-print ("new file 3")
+print ("new file 3 for demo")
