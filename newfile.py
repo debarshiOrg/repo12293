@@ -1,1 +1,1 @@
-print ("Update: Print it - Boards")
+print ("Update: Print it - Boards check")
